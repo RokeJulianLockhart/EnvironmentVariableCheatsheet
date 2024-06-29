@@ -2,7 +2,7 @@
 
 A list of some useful environment variables in Windows.
 
-Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10 machine will result in the output `%SYSTEMDRIVE%\Users\\{username}\AppData\Local\Temp`, obviously replace {username} with your login username. In most cases the case doesn't matter, but for consistancy we show variables in upper case.
+Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10 machine will result in the output `%SYSTEMDRIVE%\Users\\{username}\AppData\Local\Temp`. Obviously, replace {username} with your login username. In most cases, the case doesn't matter, but for consistency, we display variables in upper-case.
 
 | **Variable**                | **Default/Information**                                                                                                                    |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,7 +14,7 @@ Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10
 | `TIME`                      | The current time in TIME format                                                                                                            |
 | `RANDOM`                    | A random number from 0 to 32767                                                                                                            |
 | `OS`                        | The operating system (Windows 10 still reports `Windows_NT`)                                                                               |
-| `PATHEXT`                   | `.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC`, comma separated exectuable file extensions in order of precedence (left to right) |
+| `PATHEXT`                   | `.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC`, comma separated executable file extensions in order of precedence (left to right) |
 | `PROCESSOR_ARCHITECTURE`    | AMD64/IA64/x86 the architecture of the current process                                                                                     |
 | `PROCESSOR_IDENTIFIER`      | Processor ID                                                                                                                               |
 | `PROCESSOR_LEVEL`           | Processor level                                                                                                                            |
@@ -23,13 +23,15 @@ Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10
 | `ERRORLEVEL`                | The error value set when a program exits                                                                                                   |
 | `COMSPEC`                   | `%SYSTEMDRIVE%\Windows\System32\cmd.exe`                                                                                                   |
 | `LOGONSERVER`               | `\\\`{domain}                                                                                                                              |
-| `USERDOMAIN_ROAMINGPROFILE` | User domain associated with romaing profile                                                                                                |
+| `USERDOMAIN_ROAMINGPROFILE` | User domain associated with roaming profile                                                                                                |
+
+## **Paths**
 
 The following are the default directory locations:
 
 | **Variable**              | **Directory location**                                                                                               |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------|
-| `SYSTEMDRIVE`             | The storage device which your Windows installation is installed to                                                   |
+| `SYSTEMDRIVE`             | The storage device to which your Windows installation is installed                                                   |
 | `CD`                      | The current directory                                                                                                |
 | `TMP or TEMP`             | `%SYSTEMDRIVE%\Users\\{username}\AppData\Local\Temp`                                                                 |
 | `HOMEDRIVE`               | `%SYSTEMDRIVE%`                                                                                                      |
@@ -43,7 +45,7 @@ The following are the default directory locations:
 | `COMMONPROGRAMFILES(x86)` | `%SYSTEMDRIVE%\Program Files (x86)\Common Files`                                                                     |
 | `PROGRAMDATA`             | `%SYSTEMDRIVE%\ProgramData`                                                                                          |
 | `LOCALAPPDATA`            | `%SYSTEMDRIVE%\Users\\{username}\AppData\Local`                                                                      |
-| `SYSTEMROOT or WINDIR`    | `%SYSTEMDRIVE%\windows` (Note: `WINDIR` may be altered so use `SYSTEMROOT` instead)                                    |
+| `SYSTEMROOT or WINDIR`    | `%SYSTEMDRIVE%\windows` (Note: `WINDIR` may be altered so use `SYSTEMROOT` instead)                                  |
 | `PUBLIC`                  | `%SYSTEMDRIVE%\Users\Public`                                                                                         |
 | `PATH`                    | Your file search path                                                                                                |
 | `PSMODULEPATH`            | `%SYSTEMDRIVE%\Program Files\WindowsPowerShell\Modules;%SYSTEMDRIVE%\windows\system32\WindowsPowerShell\v1.0\Module` |
