@@ -4,7 +4,7 @@ A list of some useful environment variables in Windows.
 
 Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10 machine will result in the output `%SYSTEMDRIVE%\Users\\$([Environment]::UserName)\AppData\Local\Temp`. Obviously, replace `$`-demarcated variable acquisitions with your login username (if not using PowerShell). In most cases, the case of the variables doesn't matter, but for consistency, we display variables in upper-case (because they're meant to be constant).
 
-| **Variable**                | **Default/Information**.                                                                                                                    |
+| **Variable**                | **Default/Information**                                                                                                                     |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `USERNAME`                  | Your user name.                                                                                                                             |
 | `USERDOMAIN`                | The domain or machine name.                                                                                                                 |
@@ -29,7 +29,7 @@ Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10
 
 The following are the default directory locations:
 
-| **Variable**              | **Directory location**.                                                                                               |
+| **Variable**              | **Directory location**                                                                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | `SYSTEMDRIVE`             | The storage device to which your Windows installation is installed.                                                   |
 | `CD`                      | The current directory.                                                                                                |
@@ -56,7 +56,7 @@ The following are the default directory locations:
 
 Common directory locations (including the %):
 
-| **Variable**                                              | **Directory** location.                                                                                          |
+| **Variable**                                              | **Directory** location                                                                                           |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | `%USERPROFILE%\Desktop`                                   | `%SYSTEMDRIVE%\Users\\$([Environment]::UserName)\Desktop`                                                        |
 | `%USERPROFILE%\Downloads`                                 | `%SYSTEMDRIVE%\Users\\$([Environment]::UserName)\Downloads`                                                      |
@@ -70,7 +70,7 @@ Common directory locations (including the %):
 
 Some default application directories:
 
-| **Variable**                                                            | **Description**.                        |
+| **Variable**                                                            | **Description**                         |
 |-------------------------------------------------------------------------|-----------------------------------------|
 | `%USERPROFILE%\\.npmrc`                                                 | NPM `ini`-formatted configuration file. |
 | `%USERPROFILE%\\.gitconfig`                                             | Global Git configuration file.          |
