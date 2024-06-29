@@ -54,7 +54,7 @@ The following are the default directory locations:
 | `CMDCMDLINE`              | Command line used to launch CMD (i.e. "`%SYSTEMDRIVE%\windows\system32\cmd.exe`").                                    |
 | `CMDEXTVERSION`           | Number of command process extensons for CMD prompt.                                                                   |
 
-Common directory locations (including the %):
+Common directory locations (including the `%`):
 
 | **Variable**                                              | **Directory** location                                                                                           |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
