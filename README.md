@@ -4,6 +4,8 @@ A list of some useful environment variables in Windows.
 
 Variables should be enclosed in `%`. For example, `echo %TEMP%` on my Windows 10 machine will result in the output `%SYSTEMDRIVE%\Users\\$([Environment]::UserName)\AppData\Local\Temp`. Obviously, replace `$`-demarcated variable acquisitions with your login username (if not using PowerShell). In most cases, the case of the variables doesn't matter, but for consistency, we display variables in upper-case (because they're meant to be constant).
 
+## **Hardware and OS Configuration**
+
 | **Variable**                | **Default/Information**                                                                                                                     |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `USERNAME`                  | Your user name.                                                                                                                             |
